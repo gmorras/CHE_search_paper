@@ -1,6 +1,7 @@
 #Code to analyze the images using a Neural Network
 #Authors: Savvas Nesseris and Gonzalo Morrás Gutiérrez
-#E-mail: gonzalo.morras@estudiante.uam.es
+#E-mails: savvas.nesseris@csic.es
+#         gonzalo.morras@estudiante.uam.es
 
 # Silence annoying TF crap printed on the screen
 import os
