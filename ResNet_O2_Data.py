@@ -1,3 +1,7 @@
+#Code to analyze the images using a Neural Network
+#Authors: Savvas Nesseris and Gonzalo Morrás Gutiérrez
+#E-mail: gonzalo.morras@estudiante.uam.es
+
 # Silence annoying TF crap printed on the screen
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  
@@ -71,9 +75,8 @@ model_name = 'ResNet_v1.h5'
 no_train_curves = False
 
 # Set the root path of the data
-#datapath = '/home/gonzalo/Downloads/samples50x50/'
-datapath = 'ReducedSamples/'
-test_to_exp =  1/2.0 #1/18.0
+datapath = '/lustre/gmorras/samples4TriggerNN/samples50x50/'
+test_to_exp =  1/18.0
 
 # Set the test paths
 test_path_GWs=datapath+'Validation_General_Injected_together/'
