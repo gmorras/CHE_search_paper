@@ -1,3 +1,7 @@
+#Code to inject CHE simulations into shifted timestream and running the correlation trigger over it
+#Author: Gonzalo Morrás Gutiérrez
+#E-mail: gonzalo.morras@estudiante.uam.es
+
 import os
 os.environ.update(
     OMP_NUM_THREADS = '1',
