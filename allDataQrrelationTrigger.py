@@ -1,3 +1,8 @@
+#Code to run the correlation trigger on the experimental data
+#Author: Gonzalo Morrás Gutiérrez
+#E-mail: gonzalo.morras@estudiante.uam.es
+
+
 import os
 os.environ.update(
     OMP_NUM_THREADS = '1',
