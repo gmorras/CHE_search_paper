@@ -1,3 +1,7 @@
+#Code to compute CHE waveforms using 1.5PN order corrections in the orbit and only leading order GW emission 
+#Author: Gonzalo Morrás Gutiérrez
+#E-mail: gonzalo.morras@estudiante.uam.es
+
 import numpy as np
 from scipy.integrate import solve_ivp
 from matplotlib import pyplot as plt
